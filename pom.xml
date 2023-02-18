@@ -68,26 +68,26 @@
                                         <limit>
                                             <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>1.0</minimum>
-                                        </limit>
-                                  <!--      <limit>
-                                            <counter>CLASS</counter>
-                                            <value>MISSEDCOUNT</value>
-                                            <maximum>0</maximum>
-                                        </limit>
-                                    </limits>
-                                </rule>
-                                <rule>
-                                    <element>CLASS</element>
-                                    <excludes>
-                                        <exclude>*Test</exclude>
-                                    </excludes>
-                                    <limits>
-                                        <limit>
-                                            <counter>LINE</counter>
-                                            <value>COVEREDRATIO</value>
                                             <minimum>100%</minimum>
-                                        </limit>-->
+                                        </limit>
+                                        <!--      <limit>
+                                                  <counter>CLASS</counter>
+                                                  <value>MISSEDCOUNT</value>
+                                                  <maximum>0</maximum>
+                                              </limit>
+                                          </limits>
+                                      </rule>
+                                      <rule>
+                                          <element>CLASS</element>
+                                          <excludes>
+                                              <exclude>*Test</exclude>
+                                          </excludes>
+                                          <limits>
+                                              <limit>
+                                                  <counter>LINE</counter>
+                                                  <value>COVEREDRATIO</value>
+                                                  <minimum>100%</minimum>
+                                              </limit>-->
                                     </limits>
                                 </rule>
                             </rules>

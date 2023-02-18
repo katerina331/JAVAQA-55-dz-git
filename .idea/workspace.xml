@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c4a5df7-478b-4f37-8cb7-8be96d7a1b5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" afterDir="false" />
+    <list default="true" id="9c4a5df7-478b-4f37-8cb7-8be96d7a1b5c" name="Changes" comment="Add Dz first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,46 @@
       <command value="mvn clean verify" />
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.StatisticsServiceTest.findMaxNoFirst">
+    <configuration name="StatisticsServiceTest.findMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOnGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.statistic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.statistic" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.statistic.StatisticsServiceTest" />
+      <option name="METHOD_NAME" value="findMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsServiceTest.findMaxNoFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestOnGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.statistic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.statistic" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.statistic.StatisticsServiceTest" />
+      <option name="METHOD_NAME" value="findMaxNoFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatisticsServiceTest.findMaxNoFirst" />
+        <item itemvalue="JUnit.StatisticsServiceTest.findMax" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,6 +109,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676654988867</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Dz first">
+      <created>1676724859809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676724859809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,5 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add Dz first" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dz first" />
   </component>
 </project>
